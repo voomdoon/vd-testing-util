@@ -14,6 +14,17 @@
 	<artifactId>vd-testing-util</artifactId>
 	<version>0.2.0-SNAPSHOT</version>
 
+	<name>vd-testing-util</name>
+	<description>testing utilities for voomdoon modules</description>
+	<url>https://github.com/voomdoon/vd-testing-util</url>
+
+	<scm>
+		<url>https://github.com/voomdoon/vd-testing-util</url>
+		<connection>scm:git:https://github.com/voomdoon/vd-testing-util.git</connection>
+		<developerConnection>scm:git:git@github.com:voomdoon/vd-testing-util.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<properties>
 		<skipTestJar>false</skipTestJar>
 		
