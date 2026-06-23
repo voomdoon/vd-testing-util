@@ -1,5 +1,17 @@
 # vd-testing-util
 
+[![License](https://img.shields.io/github/license/voomdoon/vd-testing-util)](https://github.com/voomdoon/vd-testing-util/blob/main/LICENSE)
+[![Java](https://img.shields.io/badge/Java-21-blue)](https://adoptium.net/)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=coverage)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=bugs)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=voomdoon_vd-testing-util&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=voomdoon_vd-testing-util)
+
 Reusable JUnit testing helpers for voomdoon modules.
 
 ## Installation
