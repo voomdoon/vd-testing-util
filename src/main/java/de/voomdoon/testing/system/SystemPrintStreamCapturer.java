@@ -26,6 +26,7 @@ public class SystemPrintStreamCapturer {
 	 *            the {@link ThrowingRunnable} to run
 	 * @return The tracked {@link SystemPrintStreamCapturer}.
 	 * @throws InvocationTargetException
+	 *             if the runnable throws and exceptions are not caught
 	 * @since 0.2.0
 	 */
 	public static SystemPrintStreamCapturer run(ThrowingRunnable runnable) throws InvocationTargetException {
@@ -39,6 +40,7 @@ public class SystemPrintStreamCapturer {
 	 *            the {@link ThrowingRunnable} to run
 	 * @return {@link SystemPrintStreamCapturer}
 	 * @throws InvocationTargetException
+	 *             if invocation of the runnable fails unexpectedly
 	 * @since 0.2.0
 	 * @see SystemPrintStreamCapturer#getException()
 	 */
@@ -178,6 +180,7 @@ public class SystemPrintStreamCapturer {
 	 * Logs the contend of the {@link PrintStream}s.
 	 *
 	 * @param logger
+	 *            {@link Logger} receiving the captured output
 	 * @since 0.2.0
 	 */
 	public void log(Logger logger) {

@@ -17,6 +17,14 @@ import de.voomdoon.logging.Logger;
 public abstract class TestBase {
 
 	/**
+	 * Creates a test base.
+	 */
+	protected TestBase() {
+	}
+
+	/**
+	 * Logger for the current test class.
+	 *
 	 * @since 0.1.0
 	 */
 	protected final Logger logger = LogManager.getLogger(getClass());
@@ -27,6 +35,8 @@ public abstract class TestBase {
 	private String testMethodName;
 
 	/**
+	 * Returns the current test method name.
+	 *
 	 * @return {@link String}
 	 * @since 0.1.0
 	 */
@@ -39,6 +49,8 @@ public abstract class TestBase {
 	}
 
 	/**
+	 * Logs the end of the current test.
+	 *
 	 * @since 0.1.0
 	 */
 	@AfterEach
@@ -47,6 +59,8 @@ public abstract class TestBase {
 	}
 
 	/**
+	 * Determines and logs the start of the current test.
+	 *
 	 * @since 0.1.0
 	 */
 	protected void logTestStart() {
